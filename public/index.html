@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Onepush Example</title>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "03f11961-99f6-4a35-89c2-56ee676953cc",
+          safari_web_id: "web.onesignal.auto.261dc44c-6b5c-4882-ba5f-51ef0736d918",
+          notifyButton: {
+            enable: true,
+          },
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="message">
+      <h2>Welcome</h2>
+    </div>
+</html>
